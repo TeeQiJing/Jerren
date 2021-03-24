@@ -1,0 +1,33 @@
+h1 {
+	text-align: center;
+	color: red;
+}
+h2 {
+	color: red;
+}
+div {
+	border: 1px solid black;
+}
+#div1 {
+	position: absolute;
+	border: 2px solid Brown; 
+	text-align: center;
+	color: blue;
+	font-size: 20px;
+	font-family: Sans-serif;
+	width: 120px;
+	height: 40px;
+	padding: 20px 30px;
+	
+	top: 5px;
+
+
+	
+}
+body {
+	background: #ffcc00;
+	background-image: url("img/elonMusk.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100px;
+}
