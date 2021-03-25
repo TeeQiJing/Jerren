@@ -20,3 +20,14 @@ var text = document.getElementById("text").textContent;
 function b1(){
     document.write()
 }
+function insert(num){
+    document.getElementById("text").value += num;
+}
+function calculate(){
+    var result = eval(document.getElementById("text").value);
+    document.getElementById("result").value += result;
+}
+function clear(){
+
+    document.getElementById('result').value='';
+}
