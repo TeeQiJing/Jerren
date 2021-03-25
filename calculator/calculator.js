@@ -17,9 +17,7 @@ var leftPar = document.getElementById("leftPar").value;
 var ac = document.getElementById("ac").value;
 var equal = document.getElementById("equal").value;
 var text = document.getElementById("text").textContent;
-function b1(){
-    document.write()
-}
+
 function insert(num){
     document.getElementById("text").value += num;
 }
